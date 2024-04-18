@@ -54,13 +54,13 @@ public class Main {
         int totalBrown = brownPaint * needPaint;
         System.out.println("В школе, где " + needPaint + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски ");
 
-        byte bananas = 5;
+        int bananas = 5;
         int bananasGrams = 5 * 80;
         int milk = 200;
         int milkGrams = 200 / 100 * 105;
-        byte iceCream = 2;
+        int iceCream = 2;
         int iceCreamGrams = 2 * 100;
-        byte eggs = 4;
+        int eggs = 4;
         int eggsGrams = 4 * 70;
         int gramsProducts = bananasGrams + milkGrams + iceCreamGrams + eggsGrams;
         System.out.println("Всего граммов " + gramsProducts);
